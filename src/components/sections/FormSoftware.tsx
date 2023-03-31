@@ -28,9 +28,7 @@ const FormSoftware: FC = () => {
     hourCall: new Date().toISOString().slice(11, 19),
     description: "",
   };
-  const submitForm = async (values: any) => {
-    console.log(values);
-  };
+  const submitForm = async (values: any) => {};
   return (
     <Box display="flex" justifyContent="center" sx={{ mt: 3 }}>
       <Formik
@@ -47,7 +45,6 @@ const FormSoftware: FC = () => {
             handleSubmit,
             handleBlur,
           } = formik;
-          console.log(values);
           return (
             <form
               onSubmit={handleSubmit}

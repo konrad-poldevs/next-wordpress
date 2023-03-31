@@ -34,7 +34,7 @@ const Services: FC<Props> = (props) => {
             <Card sx={{ maxWidth: 345, height: 450 }}>
               <CardMedia
                 sx={{ height: 140 }}
-                image="/laptop1.jpg"
+                image="/service-it.jpg"
                 title="crm"
               />
               <CardContent sx={{ height: 250 }}>
@@ -56,7 +56,7 @@ const Services: FC<Props> = (props) => {
             <Card sx={{ maxWidth: 345, height: 450 }}>
               <CardMedia
                 sx={{ height: 140 }}
-                image="/laptop2.jpg"
+                image="/service-it.jpg"
                 title="crm"
               />
               <CardContent sx={{ height: 250 }}>
@@ -78,7 +78,7 @@ const Services: FC<Props> = (props) => {
             <Card sx={{ maxWidth: 345, height: 450 }}>
               <CardMedia
                 sx={{ height: 140 }}
-                image="/laptop3.jpg"
+                image="/service-it.jpg"
                 title="crm"
               />
               <CardContent sx={{ height: 250 }}>

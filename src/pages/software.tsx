@@ -5,7 +5,6 @@ import axios from "axios";
 import FormSoftware from "@/components/sections/FormSoftware";
 
 const SoftwarePage: NextPage = ({ posts }: any) => {
-  console.log(posts);
   return (
     <>
       <Layout title="poldevs" description="desc">

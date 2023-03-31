@@ -12,7 +12,6 @@ import {
 import axios from "axios";
 import { NextPage } from "next";
 import Link from "next/link";
-import { useRouter } from "next/router";
 
 const BlogPage: NextPage = ({ posts }: any) => {
   return (
@@ -38,7 +37,7 @@ const BlogPage: NextPage = ({ posts }: any) => {
                 <Card sx={{ width: 345, height: 320 }}>
                   <CardMedia
                     sx={{ height: 140 }}
-                    image="/laptop1.jpg"
+                    image="/service-it.jpg"
                     title="crm"
                   />
                   <CardContent>

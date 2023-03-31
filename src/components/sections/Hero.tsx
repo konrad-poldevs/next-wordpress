@@ -25,7 +25,7 @@ const Hero: FC<Props> = ({ title }) => {
         >
           <Grid xs={2} sm={4}>
             <Box>
-              <img src="" alt="" />
+              <img src="service-it.jpg" alt="" />
             </Box>
           </Grid>
           <Grid xs={2} sm={4}>

@@ -8,6 +8,9 @@ const SinglePostPage: NextPage = ({ post }: any) => {
     <>
       <Layout title="poldevs" description="desc">
         <Box sx={{ mt: 4, p: 3 }}>
+          <Box width={"400px"} display="flex" margin="0 auto">
+            <img src="/service-it.jpg" alt="" />
+          </Box>
           <Typography variant="h2" align="center" sx={{ mb: 3 }}>
             {post?.title?.rendered}
           </Typography>
